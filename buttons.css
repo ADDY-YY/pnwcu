@@ -1,0 +1,34 @@
+.pributton{
+  color: #d9853b;
+ border: solid #d9853b;
+ font-weight: bold;
+ border-width: 3px;
+ padding: 10px;
+ padding-bottom: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ border-radius: 20px;
+ transform: 0.25;
+}
+.pributton:hover{
+  background-color: #d9853b;
+  color: #ececea;
+  cursor: pointer;
+}
+.hero-button{
+  position: relative;
+  top: 25px;
+  left: 250px;
+  background-color: #558c90;
+  color: #ececea;
+  border: none;
+  font-size: 30px;
+  padding: 15px 25px;
+  border-radius: 2px;
+  transition: 0.25;
+}
+.hero-button:hover{
+  background-color: #487275;
+  cursor: pointer;
+  text-decoration: underline;
+}

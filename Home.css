@@ -1,0 +1,157 @@
+@font-face {
+  font-family: meta;
+  src: url('Fonts/FFMetaProRegular.TTF');
+}
+body{
+  background-color: #ececea;
+  font-family: meta;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 0px;
+}
+.nav{
+  position: sticky;
+  top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1312px;
+  height: 140px;
+  background-color: #ececea;
+  z-index: 1000; 
+}
+.Logo{
+  float: left;
+  height: 130px;
+  margin: 0px;
+}
+.secnav-div{
+  position: relative;
+  top: 10px;
+  left: 250px;
+  display: flex;
+}
+.sec-nav{
+  display: inline;
+  color: rgb(40, 40, 40);
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 700;
+  transition: 0.25s;
+  margin-top: 100px;
+  margin-right: 50px; 
+}
+.sec-nav:hover{
+  color: #d9853b;
+  cursor: pointer;
+}
+  .login{
+    float: inline-end;
+    position: relative;
+    top: -55px;
+    right: 100px;
+    background-color: #d9853b;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 20px;
+    border-radius: 1px;
+    margin-left: 20px;
+    transition: 0.25s;
+    font-family: meta;
+}
+  .login:hover{
+  background-color: #b6743a;
+  cursor: pointer;
+}
+.prinav-div{
+  position: relative;
+  top: -25;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pri-nav{
+  display: inline;
+  padding-left: 50px;
+  height: 100px;
+  color: rgb(40, 40, 40);
+  font-style: normal;
+  font-size: 35px;
+  font-weight: 700;
+  transition: 0.25s;
+}
+.pri-nav:hover{
+  color: #d9853b;
+  cursor: pointer;
+}
+.herotext-div{
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: inline-block;
+  width: 1311px;
+  height: 800px;
+}
+.hero-img{
+  display: block;
+  margin: auto;
+  width: 1311px;
+}
+.hero-text1{
+  position: relative;
+  top: 100px;
+  left: 175px;
+  font-size: 45px;
+  width: 550px;
+  color: #ececea;
+}
+.hero-text2{
+  position: relative;
+  top: 25px;
+  left: 175px;
+  font-size: 50px;
+  font-weight: 900;
+  width: 550px;
+  color: #ececea;
+}
+.happeningdiv{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  column-gap: 100px;
+  font-size: larger;
+}
+.bar{
+  margin-top: 50px;
+  width: 1311px;
+}
+.edusection{
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1311px;
+  margin-top: 50px;
+}
+.edutitle{
+  position: relative;
+  top: 75px;
+  margin-right: 50px;
+  font-size: x-large;
+}
+.edutiletitle{
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+.edutileinfo{
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
